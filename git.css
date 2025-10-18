@@ -5,7 +5,9 @@ body{
     background: hsl(214, 17%, 92%);
     display: flex;
     word-wrap: break-word;
+    gap: 15px;
 }
+/* one */
 .container{
     height: 300px;
     width: 700px;
@@ -14,6 +16,7 @@ body{
     padding: 10px;
     color: hsl(260, 100%, 95%);
     text-wrap: wrap;
+    box-shadow: 10px 10px 20px hsl(224, 10%, 45%);
 }
 .logo{
     display: flex;
@@ -29,4 +32,15 @@ body{
 .bold{
     font-size: 1.2em;
     font-weight: bold;
+}
+/* two */
+.container-two{
+    height: 300px;
+    width: 300px;
+    background: hsl(217, 19%, 35%);
+    border-radius: 15px;
+    padding: 10px;
+    color: hsl(260, 100%, 95%);
+    text-wrap: wrap;
+    box-shadow: 10px 10px 20px hsl(224, 10%, 45%);
 }
