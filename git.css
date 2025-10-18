@@ -1,3 +1,9 @@
 body{
     background: #201d5b;
 }
+.container{
+    height: 400px;
+    width: 700px;
+    background: #1ed4d4;
+    border-radius: 20px;
+}
