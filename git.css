@@ -7,6 +7,12 @@ body{
     word-wrap: break-word;
     gap: 15px;
 }
+.right{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
 /* one */
 .container{
     height: 300px;
@@ -16,7 +22,7 @@ body{
     padding: 10px;
     color: hsl(260, 100%, 95%);
     text-wrap: wrap;
-    box-shadow: 10px 10px 20px hsl(224, 10%, 45%);
+    box-shadow: 10px 10px 20px hsl(219, 29%, 14%);
 }
 .logo{
     display: flex;
@@ -42,5 +48,36 @@ body{
     padding: 10px;
     color: hsl(260, 100%, 95%);
     text-wrap: wrap;
-    box-shadow: 10px 10px 20px hsl(224, 10%, 45%);
+    box-shadow: 10px 10px 20px hsl(219, 29%, 14%);
+}
+.container-three{
+    height: 300px;
+    width: 300px;
+    background: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    padding: 10px;
+    color: hsl(224, 10%, 45%);
+    text-wrap: wrap;
+    box-shadow: 10px 10px 20px hsl(219, 29%, 14%);
+}
+.container-four{
+    height: 300px;
+    width: 700px;
+    background: hsl(0, 0%, 7%);
+    border-radius: 15px;
+    padding: 10px;
+    color: hsl(0, 0%, 81%);
+    text-wrap: wrap;
+    box-shadow: 10px 10px 20px hsl(219, 29%, 14%);
+}
+.left{
+    height: 650px;
+    width: 800px;
+    background: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    padding: 10px;
+    color: hsl(224, 10%, 45%);
+    text-wrap: wrap;
+    box-shadow: 10px 10px 20px hsl(219, 29%, 14%);
+    margin-left: 30px;
 }
