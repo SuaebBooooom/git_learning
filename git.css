@@ -5,23 +5,28 @@ body{
     background: hsl(214, 17%, 92%);
     display: flex;
     word-wrap: break-word;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
 }
 .container{
     height: 300px;
-    width: 600px;
+    width: 700px;
     background: hsl(263, 55%, 52%);
     border-radius: 15px;
     padding: 10px;
+    color: hsl(260, 100%, 95%);
+    text-wrap: wrap;
 }
 .logo{
     display: flex;
     align-items: center;
     gap: 10px;
-    color: hsl(260, 100%, 95%);
 }
 .kiri img{
     border-radius: 50%;
+}
+.text {
+    font-size: 1.1em;
+}
+.bold{
+    font-size: 1.2em;
+    font-weight: bold;
 }
