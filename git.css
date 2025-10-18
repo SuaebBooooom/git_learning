@@ -1,5 +1,8 @@
+*{
+    font-family: "Barlow Semi Condensed", sans-serif;
+}
 body{
-    background: #201d5b;
+    background: hsl(214, 17%, 92%);
     display: flex;
     word-wrap: break-word;
     justify-content: center;
@@ -7,11 +10,18 @@ body{
     height: 100vh;
 }
 .container{
-    height: 400px;
-    width: 700px;
-    background: #1ed4d4;
-    border-radius: 20px;
+    height: 300px;
+    width: 600px;
+    background: hsl(263, 55%, 52%);
+    border-radius: 15px;
+    padding: 10px;
 }
-.right{
-    
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: hsl(260, 100%, 95%);
+}
+.kiri img{
+    border-radius: 50%;
 }
