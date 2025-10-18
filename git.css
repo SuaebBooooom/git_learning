@@ -1,5 +1,10 @@
 body{
     background: #201d5b;
+    display: flex;
+    word-wrap: break-word;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 .container{
     height: 400px;
